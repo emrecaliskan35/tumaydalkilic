@@ -1,0 +1,27 @@
+.menu
+{
+list-style: none ;
+display: inline;
+font-size: 25px;
+font-weight: bold;
+}
+	
+
+
+
+.col-4.border
+{ 
+border-radius: 10px;
+border:1px solid;
+border-color:blue;
+ }
+
+
+ul>li:last-child>a{ 
+
+color: red;
+
+ }
+
+
+ 
