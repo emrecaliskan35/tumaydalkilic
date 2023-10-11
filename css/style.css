@@ -1,6 +1,6 @@
 .menu
 {
-list-style: none ;
+
 display: inline;
 font-size: 25px;
 font-weight: bold;
@@ -13,15 +13,73 @@ font-weight: bold;
 { 
 border-radius: 10px;
 border:1px solid;
-border-color:blue;
+border-color:brown;
+
  }
 
 
 ul>li:last-child>a{ 
 
-color: red;
+color: brown;
 
  }
 
 
- 
+	.div1{
+		font-style: italic;
+		font-weight: bolder;
+		border: 2px solid brown;
+		border-radius: 5px;
+		width: 1600px;
+		height: 350px;
+		text-align: justify;
+		overflow:scroll;
+	}
+
+	body{background-color: lightslategrey;rey;
+	}
+
+
+
+
+
+.main-search {
+	height: 40px;
+	width: 10px;
+	border-radius: 40px;
+	pad: 40px;
+	display: contents;
+
+
+}
+
+
+
+.tbox-search {
+
+border-radius: 50px;
+width: 40;
+font-size: 20px;
+outline: none;
+border:none;
+width: 0;
+transition: 1s;
+
+
+ }
+
+.btn-search{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	font-size: 16px;
+}
+
+.main-search:hover > .tbox-search{
+	height: 30px;
+	width: 200px;
+
+}
+
+
+
